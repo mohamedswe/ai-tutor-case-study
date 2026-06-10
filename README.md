@@ -120,19 +120,7 @@ Student uploads lecture slides
 
 This project shows competence across the full stack: document parsing, embedding pipelines, vector databases, API design, authentication, and modern frontend development with React/Next.js.
 
-## Interview-Ready Summary
 
-> I built AI Tutor, a full-stack RAG learning platform where students upload study materials and ask questions grounded in their own documents. The pipeline handles multi-modal content — extracting text with PyMuPDF and analyzing diagrams with GPT-4 Vision — then chunks, embeds, and indexes everything into pgvector for semantic search. The backend is FastAPI with JWT auth and Supabase, the frontend is Next.js with a chat interface and drag-and-drop file upload. I built the entire thing solo, from the RAG pipeline through the UI.
-
-## What This Demonstrates
-
-- RAG architecture from ingestion to retrieval to generation
-- Multi-modal document processing (text + images/diagrams)
-- Vector search with pgvector and Supabase
-- Full-stack development (FastAPI + Next.js)
-- Authentication and authorization patterns
-- Production deployment thinking (Docker, health checks, env management)
-- Cost-conscious AI engineering (vision caching, low-detail mode, token limits)
 
 ## Privacy Note
 
